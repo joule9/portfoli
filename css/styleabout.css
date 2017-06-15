@@ -1,0 +1,45 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url('../img/background.jpg');
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+h1{
+	font-family: ProximaNovaRegular, sans-serif;
+}
+area{
+	cursor: pointer;
+}
+#nom{
+	top:0px;
+	padding: 10px;
+	position: absolute;
+	background: rgba(230,230,230,0.8);
+	z-index: 100;
+	border-bottom-right-radius: 25px;
+	cursor: pointer;
+	font-size: 12px;
+}
+#nom:hover{
+	text-decoration: underline;
+}
+#nom h1{
+	margin: 0px;
+}
+#content{
+	background: rgba(230,230,230,0.8);
+	margin-top: 100px;
+	margin-left: 10%;
+	width: 80%;
+	text-align: justify;
+	border-radius: 15px;
+}
+#padding{
+	padding: 30px;
+}
+#content ul li{
+	margin-top: 20px;
+}
